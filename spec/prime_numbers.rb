@@ -1,5 +1,5 @@
 require 'rspec'
-require 'prime_factors'
+require 'prime_numbers'
 
 describe "#prime_factorization" do
   
