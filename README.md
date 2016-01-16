@@ -4,8 +4,10 @@
 #### Algorithms
 
 1. Search
-  * Binary Search (includes tests)
+  * Binary Search (tests included)
 2. Prime Numbers
-  * Prime Factorization (includes tests)
+  * Prime Factorization (tests included)
+3. Sort
+  * Insertion Sort (tests included)
 
 #### Data Structures
