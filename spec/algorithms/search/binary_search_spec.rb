@@ -1,5 +1,5 @@
 require 'rspec'
-require 'search'
+require './lib/algorithms/search/binary_search'
 
 describe '#binary_search' do 
 

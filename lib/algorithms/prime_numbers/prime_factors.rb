@@ -4,7 +4,7 @@
 ## When you can't divide by two any more, you have an odd number
 ## Then start dividing by odd numbers...incrementing the new counter by two
 
-def prime_factorization(n)
+def prime_factors(n)
   return [] if n <= 0
   factors = []
 
