@@ -21,3 +21,8 @@ end
 # start on the second element in the array
 # if the element before is greater than the current element, start moving back to see if there is something smaller
 # while iterating backwards, if you hit an element that is smaller, insert after that element
+
+# Worst Case Time Complexity : O(n**2)
+# Best Case Time Complexity : O(n)
+# Average Time Complexity : O(n**2)
+# Space Complexity : O(1)

@@ -9,5 +9,6 @@
   * Prime Factorization (tests included)
 3. Sort
   * Insertion Sort (tests included)
+  * Merge Sort
 
 #### Data Structures
