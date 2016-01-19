@@ -6,8 +6,7 @@
 1. Search
   * Binary Search - [Ruby][2]
 2. Prime Numbers
-  * Prime Factorization - [Ruby][1]
-  * Prime Factorization - [JavaScript][5]
+  * Prime Factorization - [Ruby][1]/[JavaScript][5]
 3. Sort
   * Insertion Sort - [Ruby][3]
   * Merge Sort - [Ruby][4]
