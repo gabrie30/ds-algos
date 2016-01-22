@@ -4,7 +4,7 @@
 #### Algorithms
 
 1. Search
-  * Binary Search - [Ruby][2]
+  * Binary Search - [Ruby][2]/[JavaScript][6]
 2. Prime Numbers
   * Prime Factorization - [Ruby][1]/[JavaScript][5]
 3. Sort
@@ -21,3 +21,4 @@
 [3]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/algorithms/sort/insertion_sort.rb
 [4]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/algorithms/sort/merge_sort.rb
 [5]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/algorithms/prime_numbers/prime_factorization.js
+[6]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/algorithms/search/binary_search.js
