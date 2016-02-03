@@ -11,6 +11,8 @@
   * Insertion Sort - [Ruby][3]
   * Merge Sort - [Ruby][4]
   * Quick Sort - [Ruby][7]
+4. Recursion
+  * nth Fibonacci = [Ruby][8]
 
 #### Data Structures
 
@@ -24,3 +26,4 @@
 [5]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/algorithms/prime_numbers/prime_factorization.js
 [6]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/algorithms/search/binary_search.js
 [7]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/algorithms/sort/quick_sort.rb
+[8]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/algorithms/recursion/nth_fibonacci.rb
