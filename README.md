@@ -12,7 +12,7 @@
   * Merge Sort - [Ruby][4]
   * Quick Sort - [Ruby][7]
 4. Recursion
-  * nth Fibonacci = [Ruby][8]
+  * nth Fibonacci - [Ruby][8]
 
 #### Data Structures
 
