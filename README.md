@@ -4,23 +4,23 @@
 #### Algorithms
 
 1. Search
-  * Binary Search - [Ruby][2]/[JavaScript][6]
+  * binary search - [Ruby][2]/[JavaScript][6]
 2. Prime Numbers
-  * Prime Factorization - [Ruby][1]/[JavaScript][5]
+  * prime factorization - [Ruby][1]/[JavaScript][5]
 3. Sort
-  * Bubble Sort - [Ruby][11]
-  * Insertion Sort - [Ruby][3]
-  * Merge Sort - [Ruby][4]
-  * Quick Sort - [Ruby][7]
-  * Selection Sort - [Ruby][10]
+  * bubble sort - [Ruby][11]
+  * insertion sort - [Ruby][3]
+  * merge sort - [Ruby][4]
+  * quick sort - [Ruby][7]
+  * selection sort - [Ruby][10]
 4. Recursion
   * nth Fibonacci - [Ruby][8]
   * flatten - [JavaScript][9]
 
 #### Data Structures
 
-1. Linked List
-  * Singly Linked List - [Ruby][12]
+1. Linked Lists
+  * singly linked list - [Ruby][12]
 
 
 
