@@ -19,6 +19,12 @@
 
 #### Data Structures
 
+1. Linked List
+  * Singly Linked List - [Ruby][12]
+
+
+
+[12]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/data_structures/linked_list/singly_linked_list.rb
 [1]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/algorithms/prime_numbers/prime_factorization.rb
 [2]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/algorithms/search/binary_search.rb
 [3]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/algorithms/sort/insertion_sort.rb
