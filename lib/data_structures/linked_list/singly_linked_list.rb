@@ -29,19 +29,19 @@ class Linked_List
     @listLength = 0
   end
 
+
+  # use the tail to insert the new node, making it constant time.
+  # check if the length is zero or head is nil, there is no head or tail
+  # if there is something in the LL there are no other conditions to watch out for
   def append(val)
     if @head == nil
-      @head = Node.new(val)
-      @tail = Node.new(val)
+      @head = @tail = Node.new(val)
     else
-      current = @head 
-      until current.next == nil
-        current = current.next
-      end
-
+      current = @tail
       current.next = Node.new(val)
       @tail = current.next
     end
+
     @listLength += 1
   end
 
@@ -50,38 +50,33 @@ class Linked_List
   # check if current node to insert after is tail
   # handle if search value does not exist
   def insert(insertVal, searchVal)
-    if @head == nil
-      return false
-    else
-      current = @head
-      until current.value == searchVal
-        if current.next == nil
-          return nil
-        end
-
-        current = current.next 
+    return false if @head == nil
+      
+    current = @head
+    until current.value == searchVal
+      if current.next == nil
+        return "The search value is not in this Linked List"
       end
 
-      if current == @tail 
-        current.next = Node.new(insertVal)
-        @tail = current.next
-      else
-        new_next = current.next
-        current.next = Node.new(insertVal)
-        current.next.next = new_next
-      end
+      current = current.next 
     end
 
+    if current == @tail 
+      current.next = Node.new(insertVal)
+      @tail = current.next
+    else
+      new_next = current.next
+      current.next = Node.new(insertVal)
+      current.next.next = new_next
+    end
   end
 
-  # handle deleting the head (with 1 and 2 elements only)
+  # handle an empty list
+  # handle deleting the head && with one other node
   # handle deleting the tail
   def delete(val)
-    if @head.nil?
-      return "List is empty"
-    end
-
-    return if val >= @listLength
+    return "List is empty" if @head.nil?
+    return "The index is not in the list" if val >= @listLength
 
     current = @head
     current_index = 0
@@ -111,9 +106,7 @@ class Linked_List
   end
 
   def contains(val)
-    if @head == nil
-      return false
-    end
+    return false if @head == nil
 
     current = @head
     until current == @tail
