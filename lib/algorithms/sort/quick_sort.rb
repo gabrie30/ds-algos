@@ -1,7 +1,7 @@
 def quick_sort(arr)
     return arr if arr.length <= 1
     
-    pivot = arr.pop
+    pivot = arr.last
     left  = arr.select { |x| x < pivot }
     right = arr.select { |x| x > pivot }
     
