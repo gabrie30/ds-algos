@@ -11,7 +11,7 @@
   * bubble sort - [Ruby][11]
   * insertion sort - [Ruby][3]
   * merge sort - [Ruby][4]/[JavaScript][13]
-  * quick sort - [Ruby][7]
+  * quick sort - [Ruby][7]/[JavaScript][14]
   * selection sort - [Ruby][10]
 4. Recursion
   * nth Fibonacci - [Ruby][8]
@@ -23,6 +23,7 @@
   * singly linked list - [Ruby][12]
 
 
+[14]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/algorithms/sort/quick_sort.js
 [13]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/algorithms/sort/merge_sort.js
 [12]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/data_structures/linked_list/singly_linked_list.rb
 [1]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/algorithms/prime_numbers/prime_factorization.rb
