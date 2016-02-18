@@ -1,4 +1,4 @@
-  class Hash_Table
+  class HashMap
     attr_accessor :buckets, :storage, :size
 
     def initialize
