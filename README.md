@@ -21,8 +21,11 @@
 
 1. Linked Lists
   * singly linked list - [Ruby][12]
+2. Hash Maps
+  * hash_map - [Ruby][15]
 
 
+[15]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/data_structures/hash_map/hash_map.rb
 [14]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/algorithms/sort/quick_sort.js
 [13]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/algorithms/sort/merge_sort.js
 [12]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/data_structures/linked_list/singly_linked_list.rb
