@@ -19,7 +19,6 @@
         @size += 1
         check_for_resize
       end
-
     end
 
     def delete(key)

@@ -22,7 +22,7 @@
 1. Linked Lists
   * singly linked list - [Ruby][12]
 2. Hash Maps
-  * hash_map - [Ruby][15]
+  * hash map - [Ruby][15]
 
 
 [15]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/data_structures/hash_map/hash_map.rb
