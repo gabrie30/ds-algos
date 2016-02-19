@@ -23,8 +23,10 @@
   * singly linked list - [Ruby][12]
 2. Hash Maps
   * hash map - [Ruby][15]
+3. Queues
+  * queue from two stacks - [JavaScript][16]
 
-
+[16]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/data_structures/queues/queue_from_two_stacks.js
 [15]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/data_structures/hash_map/hash_map.rb
 [14]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/algorithms/sort/quick_sort.js
 [13]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/algorithms/sort/merge_sort.js
