@@ -23,13 +23,18 @@
   * singly linked list - [Ruby][12]
 2. Hash Maps
   * hash map - [Ruby][15]
-3. Queues
+3. Graphs
+  * undirected graph - [Ruby][19]
+4. Queues
   * queue from two stacks - [JavaScript][16]
-4. Stacks
+5. Stacks
   * stack from one queue - [JavaScript][17]
   * balanced parens - [JavaScript][18]
 
 
+
+
+[19]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/data_structures/graphs/undirected_graph.rb
 [18]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/data_structures/stacks/balanced_parens.js
 [17]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/data_structures/stacks/stack_from_queue.js
 [16]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/data_structures/queues/queue_from_two_stacks.js
