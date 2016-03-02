@@ -25,15 +25,17 @@
   * hash map - [Ruby][15]
 3. Graphs
   * undirected graph - [Ruby][19]
-4. Queues
+4. Trees
+  * binary tree with DFS/BFS - [Ruby][20]
+5. Queues
   * queue from two stacks - [JavaScript][16]
-5. Stacks
+6. Stacks
   * stack from one queue - [JavaScript][17]
   * balanced parens - [JavaScript][18]
 
 
 
-
+[20]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/data_structures/trees/binary_tree_dfs_bfs.rb
 [19]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/data_structures/graphs/undirected_graph.rb
 [18]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/data_structures/stacks/balanced_parens.js
 [17]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/data_structures/stacks/stack_from_queue.js
