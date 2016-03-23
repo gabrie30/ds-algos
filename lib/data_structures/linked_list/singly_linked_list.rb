@@ -3,14 +3,6 @@ class Node
   attr_accessor :value
   attr_accessor :next
 
-  def value
-    @value
-  end
-
-  def next
-    @next
-  end
-
   def initialize(val)
     @value = val
     @next = nil
