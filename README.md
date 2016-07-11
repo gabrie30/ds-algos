@@ -32,9 +32,10 @@
 6. Stacks
   * stack from one queue - [JavaScript][17]
   * balanced parens - [JavaScript][18]
+7. LRU Cache
+  * ruby hash + doubly linked list - [Ruby][21]
 
-
-
+[21]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/data_structures/lru_cache/lru_cache.rb
 [20]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/data_structures/trees/binary_tree_dfs_bfs.rb
 [19]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/data_structures/graphs/undirected_graph.rb
 [18]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/data_structures/stacks/balanced_parens.js
