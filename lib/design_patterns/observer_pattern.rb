@@ -2,12 +2,9 @@
 # One Publisher to many Subscribers
 # Each time the publisher updates it will notify all of the subscribers
 
-class Author
-  attr_reader :name
-
-  def initialize(name)
+module Subject
+  def initialize
     @subscribers = []
-    @name = name
   end
 
   def add_subscriber(subscriber)
@@ -31,6 +28,26 @@ class Author
   end
 end
 
+class Columnist
+  include Subject
+  attr_reader :name
+
+  def initialize(name)
+    super()
+    @name = name
+  end
+end
+
+class Author
+  include Subject
+  attr_reader :name
+
+  def initialize(name)
+    super()
+    @name = name
+  end
+end
+
 class TimeMagazine
 
   def update(publisher)
@@ -46,11 +63,16 @@ class NewYorkTimes
 end
 
 
-p = Author.new("Walter Winchell")
+p = Author.new("Steven King")
+c = Columnist.new("Walter Winchell")
 t = TimeMagazine.new
 m = NewYorkTimes.new
 
 p.add_subscriber(t)
 p.add_subscriber(m)
 
+c.add_subscriber(t)
+c.add_subscriber(m)
+
 p.finish_story
+c.finish_story
