@@ -35,6 +35,11 @@
 7. LRU Cache
   * ruby hash + doubly linked list - [Ruby][21]
 
+#### Design Patterns
+
+1. Observer Pattern - [Ruby][22]
+
+[22]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/design_patterns/observer_pattern.rb
 [21]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/data_structures/lru_cache/lru_cache.rb
 [20]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/data_structures/trees/binary_tree_dfs_bfs.rb
 [19]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/data_structures/graphs/undirected_graph.rb
