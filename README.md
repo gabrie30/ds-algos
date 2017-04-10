@@ -4,36 +4,36 @@
 #### Algorithms
 
 1. Search
-  * binary search - [Ruby][2]/[JavaScript][6]
+   * binary search - [Ruby][2]/[JavaScript][6]
 2. Prime Numbers
-  * prime factorization - [Ruby][1]/[JavaScript][5]
+   * prime factorization - [Ruby][1]/[JavaScript][5]
 3. Sort
-  * bubble sort - [Ruby][11]
-  * insertion sort - [Ruby][3]
-  * merge sort - [Ruby][4]/[JavaScript][13]
-  * quick sort - [Ruby][7]/[JavaScript][14]
-  * selection sort - [Ruby][10]
+   * bubble sort - [Ruby][11]
+   * insertion sort - [Ruby][3]
+   * merge sort - [Ruby][4]/[JavaScript][13]
+   * quick sort - [Ruby][7]/[JavaScript][14]
+   * selection sort - [Ruby][10]
 4. Recursion
-  * nth Fibonacci - [Ruby][8]
-  * flatten - [JavaScript][9]
+   * nth Fibonacci - [Ruby][8]
+   * flatten - [JavaScript][9]
 
 #### Data Structures
 
 1. Linked Lists
-  * singly linked list - [Ruby][12]
+   * singly linked list - [Ruby][12]
 2. Hash Maps
-  * hash map - [Ruby][15]
+   * hash map - [Ruby][15]
 3. Graphs
-  * undirected graph - [Ruby][19]
+   * undirected graph - [Ruby][19]
 4. Trees
-  * binary tree with DFS/BFS - [Ruby][20]
+   * binary tree with DFS/BFS - [Ruby][20]
 5. Queues
-  * queue from two stacks - [JavaScript][16]
+   * queue from two stacks - [JavaScript][16]
 6. Stacks
-  * stack from one queue - [JavaScript][17]
-  * balanced parens - [JavaScript][18]
+   * stack from one queue - [JavaScript][17]
+   * balanced parens - [JavaScript][18]
 7. LRU Cache
-  * ruby hash + doubly linked list - [Ruby][21]
+   * ruby hash + doubly linked list - [Ruby][21]
 
 #### Design Patterns
 
