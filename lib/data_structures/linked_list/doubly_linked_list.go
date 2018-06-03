@@ -14,8 +14,9 @@ type Node struct {
 
 // LinkedList of Nodes
 type LinkedList struct {
-	head *Node
-	tail *Node
+	head   *Node
+	tail   *Node
+	length int
 }
 
 func (list *LinkedList) addNode(val string) (*LinkedList, error) {
