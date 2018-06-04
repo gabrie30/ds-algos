@@ -30,13 +30,37 @@ func (list *LinkedList) removeNode(val string) (*LinkedList, error) {
 
 	for cursor.val != "" {
 		if cursor.val == val {
-			// remove the node
-			if cursor.val == list.tail.val {
-				// Remove tail
+			// remove the tail
+			if cursor == list.tail {
+				if list.length == 1 {
+					// Tail only node
+					list.head = nil
+					list.tail = nil
+					list.length = 0
+					return list, nil
+				}
+
+				list.tail = cursor.next
+				list.tail.prev = nil
+				list.length--
+				return list, nil
 			}
 
-			if cursor.val == list.head.val {
+			// remove the head
+			if cursor == list.head {
 				// Remove head
+				if list.length == 1 {
+					// Head only node
+					list.head = nil
+					list.tail = nil
+					list.length = 0
+					return list, nil
+				}
+
+				list.head.prev.next = nil
+				list.head = cursor.prev
+				list.length--
+				return list, nil
 			}
 
 			cursor.prev.next = cursor.next
@@ -90,6 +114,8 @@ func main() {
 		log.Fatal("Could not create new node", err)
 	}
 
+	list.removeNode("first")
+
 	_, err = list.addNode("second")
 	if err != nil {
 		log.Fatal("Could not create new node", err)
@@ -110,7 +136,13 @@ func main() {
 		log.Fatal("Could not create new node", err)
 	}
 
+	_, err = list.addNode("fifth")
+	if err != nil {
+		log.Fatal("Could not create new node", err)
+	}
+
 	list.removeNode("tenth")
+	list.removeNode("fifth")
 
 	fmt.Println("---------------------------------------")
 	list.print()
