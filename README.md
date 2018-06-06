@@ -21,6 +21,7 @@
 
 1. Linked Lists
    * singly linked list - [Ruby][12]
+   * double linked list - Go
 2. Hash Maps
    * hash map - [Ruby][15]
 3. Heaps
