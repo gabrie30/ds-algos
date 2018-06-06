@@ -23,6 +23,8 @@
    * singly linked list - [Ruby][12]
 2. Hash Maps
    * hash map - [Ruby][15]
+3. Heaps
+   * min heap - Ruby
 3. Graphs
    * undirected graph - [Ruby][19]
 4. Trees
@@ -61,10 +63,3 @@
 [9]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/algorithms/recursion/flatten.js
 [10]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/algorithms/sort/selection_sort.rb
 [11]: https://github.com/gabrie30/Data-Structures-and-Algorithms/blob/master/lib/algorithms/sort/bubble_sort.rb
-
-
-
-
-
-
-

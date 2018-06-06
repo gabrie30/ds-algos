@@ -15,7 +15,6 @@ class MinHeap
 
   def insert(node)
     @heap.push(node)
-    puts "inserting #{node}"
     float_from_last
   end
 
